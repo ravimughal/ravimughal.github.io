@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+    .block01 {
+        margin: 0px 15px;
+    }
+
+    .block_reverse {
+        flex-direction: column-reverse;
+    }
+
+    .block_normal {
+        flex-direction: column;
+    }
+
+    .block01 > img {
+        width: 100%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .aglomeration {
+        width: 100%;
+        margin: auto;
+    }
+
+    .aglomeration > img {
+        margin: auto;
+        display: none;
+    }
+
+    .paragraph {
+        margin: auto;
+    }
+}
