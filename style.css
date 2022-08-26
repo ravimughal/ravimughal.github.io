@@ -67,6 +67,7 @@ a {
 
 .social > a > img {
     margin-right: 1vw;
+    width: 40px;
 }
 
 
@@ -159,6 +160,7 @@ a {
 
 .formation {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .agl_left {
