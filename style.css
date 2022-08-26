@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #15202b;
+    color: white;
+    margin-top: 15vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main_home {
+    width: 100%;
+    height: 100vh;
+    background-color: #15202b;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.portfolio {
+    width: 100%;
+}
+
+.mrg_0 {
+    margin: 0px;
+}
+
+.portfolio > h3 {
+    color: rgba(255, 67, 67, 0.753);
+}
+
+.portfolio > h2 {
+    color: rgba(255, 255, 255, 0.897);
+}
+
+.social {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+
+.social > a > img {
+    margin-right: 1vw;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ccontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.about > h2 {
+    color: rgba(255, 67, 67, 0.753);
+    margin: 0px;
+    margin-top: 25px;
+}
+
+.about > h1 {
+    margin: 0px;
+}
+
+.about > img {
+    max-width: 250px;
+    margin: auto;
+    border-radius: 1000px;
+    margin-top: 15px;
+}
+
+.knowledge {
+    margin-top: 25px;
+}
+
+.knowledge > img {
+    max-width: 650px;
+}
