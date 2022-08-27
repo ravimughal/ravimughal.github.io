@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 1199px) {
     .block01 {
         margin: 0px 15px;
     }
@@ -29,5 +29,17 @@
 
     .paragraph {
         margin: auto;
+    }
+
+    .strengthts {
+        margin-top: 100px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .small_box {
+        margin-bottom: 60px;
     }
 }
