@@ -42,4 +42,9 @@
     .small_box {
         margin-bottom: 60px;
     }
+
+    .container_hobby > img {
+        border: solid #15202b 5px;
+        border-radius: 10px;
+    }
 }
