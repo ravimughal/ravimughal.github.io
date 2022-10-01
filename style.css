@@ -282,6 +282,17 @@ a {
     text-align: center;
 }
 
+.container_hobby > img {
+    margin: auto;
+    border: solid #15202b 15px;
+    border-radius: 10px;
+    max-width: 360px;
+}
+
+.container_hobby > a {
+    margin-top: 20px;
+}
+
 .addFriend {
     color: #ffffff;
     background-color: #769656;
