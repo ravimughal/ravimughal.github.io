@@ -19,7 +19,6 @@ function main() {
 var [best_rating, last] = main()
 
 var c_best = document.querySelector(".chess_best")
-// c_best.innerHTML = "My best score in chess.com is " + best_rating + "."
 
 var textnode = document.createTextNode("My best score in chess.com is " + best_rating + ". ")
 c_best.appendChild(textnode)

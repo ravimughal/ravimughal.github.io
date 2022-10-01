@@ -90,17 +90,31 @@ a {
     flex-wrap: wrap;
 }
 
+.outSumary {
+    background-color: #15202b;
+    position: sticky;
+    position: -webkit-sticky;
+    display: flex;
+    display: -webkit-flex;
+    top: 0;
+    height: 30px;
+    border-bottom: solid black 1px;
+    font-family: 'Alkalami', serif !important;
+}
+
 .summary {
     flex-direction: row;
     max-width: 1200px;
     width: 100%;
     justify-content: space-evenly;
-    margin-top: 50px;
     margin-bottom: 50px;
+    margin: auto;
 }
 
-.summary > a {
+.summary>a {
     width: 50px;
+    color: white;
+    height: 20px;
 }
 
 .about>h2 {
@@ -246,19 +260,19 @@ a {
     margin: 20px;
 }
 
-.project_divide > img {
+.project_divide>img {
     max-width: 248px;
     margin: auto;
     margin-top: 20px;
     border: solid 1px;
 }
 
-.project_divide > a {
+.project_divide>a {
     margin-top: 15px;
     color: white;
 }
 
-.project_divide > p {
+.project_divide>p {
     margin: auto;
 }
 
@@ -269,7 +283,7 @@ a {
     margin: auto;
 }
 
-.hobby > h1 {
+.hobby>h1 {
     margin: 20px auto;
 }
 
@@ -280,9 +294,14 @@ a {
     margin: 20px;
     max-width: 500px;
     text-align: center;
+    margin-top: 40px;
 }
 
-.container_hobby > img {
+.container_hobby>h3 {
+    margin: auto;
+}
+
+.container_hobby>img {
     margin: auto;
     border: solid #15202b 15px;
     border-radius: 10px;
@@ -290,7 +309,7 @@ a {
     width: 100%;
 }
 
-.container_hobby > a {
+.container_hobby>a {
     margin-top: 20px;
 }
 
@@ -305,6 +324,7 @@ a {
     max-width: 220px;
     margin: auto;
 }
+
 .addFriend:hover {
     background-color: #83a75f;
 }
