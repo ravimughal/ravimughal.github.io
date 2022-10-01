@@ -90,6 +90,19 @@ a {
     flex-wrap: wrap;
 }
 
+.summary {
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.summary > a {
+    width: 50px;
+}
+
 .about>h2 {
     color: rgba(255, 67, 67, 0.753);
     margin: 0px;
@@ -208,4 +221,78 @@ a {
 
 .margin_box>img {
     height: 160px;
+}
+
+.ccdark {
+    background-color: #15202b;
+    color: white !important;
+}
+
+.projects {
+    text-align: center;
+    margin: auto;
+}
+
+.project_divide {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 500px;
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: white;
+    padding: 15px;
+    margin: 20px;
+}
+
+.project_divide > img {
+    max-width: 248px;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 1px;
+}
+
+.project_divide > a {
+    margin-top: 15px;
+    color: white;
+}
+
+.project_divide > p {
+    margin: auto;
+}
+
+.hobby {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.hobby > h1 {
+    margin: 20px auto;
+}
+
+.container_hobby {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.addFriend {
+    color: #ffffff;
+    background-color: #769656;
+    font-size: 19px;
+    border: 1px solid #769656;
+    border-radius: 11px;
+    padding: 15px 50px;
+    cursor: pointer;
+    max-width: 220px;
+    margin: auto;
+}
+.addFriend:hover {
+    background-color: #83a75f;
 }
