@@ -1,5 +1,6 @@
 ---
 title: "Ravi Mughal"
+layout: indexLayout
 ---
 <html lang="en">
 
@@ -54,7 +55,6 @@ title: "Ravi Mughal"
         </div>
     </div>
     <div class="container">
-        
         <div class="about ccontainer" id="about">
             <h2>
                 About
@@ -63,11 +63,9 @@ title: "Ravi Mughal"
                 Developer
             </h1>
             <img src="https://media.discordapp.net/attachments/638027068420128806/1162423207442264135/adf5e34b-26aa-4bc5-bdd2-a5a26691d228.jpg?ex=653be1f9&is=65296cf9&hm=dc4c880646c31c549513bb43b07d15ffa79622ca298437aee0c8a4e166ec267e&=&width=375&height=375" alt="Developer Ravi Mughal">
-
             <p>
                 Currently dedicated as a developer. Having knowledge in C/C++, Javascript and Python
             </p>
-
         </div>
         <div class="knowledge ccontainer">
             <h1>
@@ -86,9 +84,7 @@ title: "Ravi Mughal"
                         always seeking to increase my knowledge in several programming languages
                     </p>
                 </div>
-
             </div>
-
         </div>
         <div class="formation ccontainer">
             <div class="block01 block_normal">
@@ -103,11 +99,8 @@ title: "Ravi Mughal"
                     </p>
                 </div>
                 <img src="./img/undraw_developer_activity_re_39tg.svg" alt="">
-
-
             </div>
         </div>
-
         <div class="events ccontainer">
             <div class="block01 block_reverse">
                 <img src="./img/undraw_engineering_team_a7n2.svg" alt="">
@@ -122,7 +115,6 @@ title: "Ravi Mughal"
                         acting as dev.
                     </p>
                 </div>
-
             </div>
         </div>
         <div class="strengthts ccontainer">
@@ -140,7 +132,6 @@ title: "Ravi Mughal"
                             Association capacity, giving logic and coherence to the project.
                         </p>
                     </div>
-
                 </div>
                 <div class="small_box">
                     <div class="margin_box">
@@ -166,9 +157,6 @@ title: "Ravi Mughal"
                 </div>
             </div>
         </div>
-
-    </div>
-    
+    </div>    
 </body>
-
 </html>
