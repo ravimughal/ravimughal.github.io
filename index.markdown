@@ -1,16 +1,17 @@
-<!DOCTYPE html>
+---
+title: "Ravi Mughal"
+---
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@100;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@100;400&display=swap" rel="stylesheet"> 
     <title>Ravi Mughal</title>
 </head>
 
@@ -33,6 +34,9 @@
                 <a href="https://github.com/ravimughal" target="_blank">
                     <img src="./img/github-svgrepo-com.svg" alt="github">
                 </a>
+                <a href="./blog.html">
+                    <img src="https://www.svgrepo.com/show/54410/blog.svg" alt="blog">
+                </a>
             </div>
         </div>
     </div>
@@ -44,17 +48,13 @@
             <a href="#projects">
                 Projects
             </a>
-            <!--
-            <a href="#hobby">
-                Hobby
+            <a href="./blog.html">
+                Blog
             </a>
-            -->
-
         </div>
     </div>
-
     <div class="container">
-
+        
         <div class="about ccontainer" id="about">
             <h2>
                 About
@@ -62,7 +62,7 @@
             <h1>
                 Developer
             </h1>
-            <img src="./img/Ravi 650x650.png" alt="Developer Ravi Mughal">
+            <img src="https://media.discordapp.net/attachments/638027068420128806/1162423207442264135/adf5e34b-26aa-4bc5-bdd2-a5a26691d228.jpg?ex=653be1f9&is=65296cf9&hm=dc4c880646c31c549513bb43b07d15ffa79622ca298437aee0c8a4e166ec267e&=&width=375&height=375" alt="Developer Ravi Mughal">
 
             <p>
                 Currently dedicated as a developer. Having knowledge in C/C++, Javascript and Python
@@ -168,99 +168,7 @@
         </div>
 
     </div>
-    <div class="container ccdark">
-        <div class="projects" id="projects">
-            <h1>
-                Projects
-            </h1>
-
-            <div class="project_divide">
-                <h3>
-                    R4 BANK
-                </h3>
-                <p>
-                    R4BANK is a fictional bank that uses the CPF (Cadastro de Pessoas Físicas) for customer
-                    identification in basic financial transactions, such as deposits and transfers.
-                </p>
-                <img src="https://media.discordapp.net/attachments/604498055969898497/1158467642554863726/Kuning_dan_Biru_Simpel_ilustrasi_Selamat_Hari_Bank_Dunia_Instagram_Story.png?ex=652d7e11&is=651b0911&hm=cc053bb9f3bf9c312b802eb72d21ce1825bd6dd0c5fe6a12b44858ca03d5b11c&=&width=211&height=375"
-                    alt="">
-
-                <a href="https://github.com/ravimughal/R4BANK">read more</a>
-
-            </div>
-            <div class="project_divide">
-                <h3>
-                    Movie Rental
-                </h3>
-                <p>
-                    Project carried out during the first period of the Software Engineering course.
-                    <br>
-                    Its functionality is to create a management system for a Film Rental
-                </p>
-                <img src="https://github.com/ravimughal/locadora-de-filme/raw/main/img/image.png" alt="">
-
-                <a href="https://github.com/ravimughal/locadora-de-filme">read more</a>
-
-            </div>
-
-            <div class="project_divide">
-                <h3>
-                    Vacinação Eficaz
-                </h3>
-                <p>
-                    Shawee hackthon with proposal in logistics.
-                    <br>
-                    The project was to calculate the best vaccine distribution route during the pandemic period
-                </p>
-                <img src="https://cdn.discordapp.com/attachments/876136112228278332/1025518085408559104/unknown.png"
-                    alt="">
-
-                <a href="https://github.com/carlostrevisan/vacinacaoeficaz">read more</a>
-
-            </div>
-        </div>
-    </div>
-    <!--
-
-
     
-    <div class="container">
-        <div class="hobby" id="hobby">
-            <h1>
-                Hobby
-            </h1>
-            <div class="container_hobby">
-                <h3>
-                    Chess ♟
-                </h3>
-                <p class="chess_best">
-                    My favorite hobby is chess. I play both online and physical, being my favorite to play physically. 
-                </p>
-                <img src="https://cdn.discordapp.com/attachments/1015654455154327563/1025614221544804472/unknown.png" alt="">
-                <a href="https://www.chess.com/member/ravimughal" target="_blank">
-                    <button class="addFriend" type="button" name="addFriend">
-                        Add Friend
-                    </button>
-                </a>
-
-            </div>
-            <div class="container_hobby">
-                <h3>
-                    Play Music 🎸
-                </h3>
-                <p>
-                    Another hobby of mine is playing musical instruments. I currently play guitar, electric guitar, bass and ukulele.
-                </p>
-                <img src="https://blog.alfibras.com/wp-content/uploads/2021/09/violao.jpeg" alt="">
-
-            </div>
-        </div>
-    </div>
-    -->
-    <footer class="center">
-        Ravi Mughal © 2022
-    </footer>
-    <script src="script.js"></script>
 </body>
 
 </html>
