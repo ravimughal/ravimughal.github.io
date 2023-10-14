@@ -42,6 +42,7 @@ defaults:
       author: "Ravi Gonçalves"
     stylesheets:
       - assets/style.css
+    permalink: /:title
 
 
 
