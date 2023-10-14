@@ -1,5 +1,4 @@
 ---
-layout: post
 categories: post
 title:  "1942"
 author: "Ravi Mughal"
