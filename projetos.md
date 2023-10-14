@@ -14,3 +14,13 @@ permalink: /projetos/
   </li>
 {% endfor %}
 </ul>
+
+<div class="projeto-carousel">
+  {% for projeto in site.projetos %}
+    <div class="projeto">
+      <img src="{{ projeto.imagem }}" alt="{{ projeto.title }}">
+      <h2>{{ projeto.title }}</h2>
+      <p>{{ projeto.description }}</p>
+    </div>
+  {% endfor %}
+</div>
