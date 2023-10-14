@@ -39,6 +39,7 @@ defaults:
     values:
       layout: "post"
       title: "Generic Title"
+      author: "Ravi Gonçalves"
     stylesheets:
       - assets/style.css
 

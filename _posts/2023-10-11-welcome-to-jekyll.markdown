@@ -2,6 +2,7 @@
 layout: post
 categories: post
 title:  "1942"
+author: "Ravi Mughal"
 date:   2023-10-11 22:21:13 +0100
 categories: jekyll update
 permalink: "/:categories/:title"
