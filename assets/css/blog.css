@@ -3,60 +3,59 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  
-  /* Estilos para cada post individual */
-  .blog-post {
+}
+
+/* Estilos para cada post individual */
+.blog-post{
     flex: 1;
-    background-color: #fff;
+    background-color: transparent;
     padding: 20px;
     margin: 10px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #c9d1d973;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     min-width: 300px;
-  }
-  
-  .blog-post:hover {
+}
+
+.blog-post:hover {
     transform: translateY(-2px);
-  }
-  
-  /* Estilos para o título do post */
-  .post-title {
+}
+
+/* Estilos para o título do post */
+.post-title {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
-  }
-  
-  .post-title a {
+}
+
+.post-title a {
     color: #007bff;
     text-decoration: none;
-  }
-  
-  .post-title a:hover {
+}
+
+.post-title a:hover {
     text-decoration: underline;
-  }
-  
-  /* Estilos para a data do post */
-  .post-date {
+}
+
+/* Estilos para a data do post */
+.post-date {
     color: #777;
-  }
-  
-  /* Estilos para o trecho do post */
-  .post-excerpt {
+}
+
+/* Estilos para o trecho do post */
+.post-excerpt {
     color: #444;
     line-height: 1.5;
-  }
-  
-  /* Estilos para o link "Leia Mais" */
-  .read-more {
+}
+
+/* Estilos para o link "Leia Mais" */
+.read-more {
     color: #007bff;
     text-decoration: none;
     font-weight: 600;
-  }
-  
-  .read-more:hover {
+}
+
+.read-more:hover {
     text-decoration: underline;
-  }
-  
+}
