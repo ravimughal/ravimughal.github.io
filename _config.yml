@@ -37,6 +37,8 @@ collections:
   projetos:
     output: true
 
+permalink: pretty
+
 defaults:
   -
     scope:
@@ -46,15 +48,15 @@ defaults:
       layout: "newPost"
       title: "Generic Title"
       author: "Ravi Gonçalves"
-    stylesheets:
-      - assets/style.css
-    permalink: /:title
+      stylesheets:
+        - assets/css/blog.css
   -
     scope:
       path: ""
       type: "projetos"
     values:
       layout: "newPost"
+
 
 
 

@@ -35,7 +35,7 @@ layout: indexLayout
                 <a href="https://github.com/ravimughal" target="_blank">
                     <img src="./img/github-svgrepo-com.svg" alt="github">
                 </a>
-                <a href="./blog.html">
+                <a href="./blog">
                     <img src="https://www.svgrepo.com/show/54410/blog.svg" alt="blog">
                 </a>
             </div>
