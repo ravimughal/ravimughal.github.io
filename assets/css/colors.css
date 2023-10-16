@@ -5,9 +5,9 @@ body {
 
 .site-header {
     border-top: 5px solid #0D1117 !important;
-    background-color: #010409;    
+    background-color: #010409;
     border-bottom: 1px solid #050505;
-}   
+}
 
 .page-link {
     color: #C9D1D9 !important;
@@ -15,4 +15,25 @@ body {
 
 .site-title {
     color: #C9D1D9 !important;
+}
+
+.highlight, pre {
+    background-color: transparent;
+}
+
+pre {
+    border: 1px solid #c9d1d973 !important;
+}
+
+code {
+    background-color: #040D12;
+    border: 1px solid #c9d1d973;
+}
+
+a {
+    color: #58A6FF !important;
+}
+
+a:hover {
+    color: #93B1A6;
 }

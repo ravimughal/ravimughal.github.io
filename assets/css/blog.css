@@ -29,14 +29,6 @@
     color: #333;
 }
 
-.post-title a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.post-title a:hover {
-    text-decoration: underline;
-}
 
 /* Estilos para a data do post */
 .post-date {
@@ -59,3 +51,4 @@
 .read-more:hover {
     text-decoration: underline;
 }
+

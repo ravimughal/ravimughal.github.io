@@ -31,6 +31,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+
+collections:
+  projetos:
+    output: true
+
 defaults:
   -
     scope:
@@ -43,11 +49,12 @@ defaults:
     stylesheets:
       - assets/style.css
     permalink: /:title
-
-collections:
-  projetos:
-    output: true
-
+  -
+    scope:
+      path: ""
+      type: "projetos"
+    values:
+      layout: "newPost"
 
 
 
