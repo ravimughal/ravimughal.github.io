@@ -1,17 +1,15 @@
 ---
 title: NWS letter
 image: /img/nws.png
-excerpt: "O script em Python de Envio Automatizado de Newsletters por E-mail oferece uma maneira eficaz e automatizada de enviar boletins informativos para uma lista de assinantes."
+excerpt: "The Python Automated Email Newsletter Sending Script offers an effective and automated way to send newsletters to a list of subscribers."
 ---
 
-
-
-<img src="https://raw.githubusercontent.com/ravimughal/newsletter/main/img/nws.png" width='150px' style='margin: 0 auto; display: flex' />
+<img src="https://raw.githubusercontent.com/ravimughal/newsletter/main/img/nws.png" width='150px' style='display: flex' />
 
 # NWS letter
 
-## Descrição do Projeto
-<p> O script em Python de Envio Automatizado de Newsletters por E-mail oferece uma maneira eficaz e automatizada de enviar boletins informativos para uma lista de assinantes. </p>
+## Project Description
+<p>The Python Automated Email Newsletter Sending Script offers an effective and automated way to send newsletters to a list of subscribers.</p>
 
 <div style="display: flex; align-items: center;">
   <img src='https://simpleicons.org/icons/python.svg' width='50px' style='display: flex; margin-right: 15px'>
@@ -22,97 +20,95 @@ excerpt: "O script em Python de Envio Automatizado de Newsletters por E-mail ofe
 
 <br>
 
-Tabela de conteúdos
+Table of Contents
 =================
 <!--ts-->
 
 
 - [NWS letter](#nws-letter)
-  - [Descrição do Projeto](#descrição-do-projeto)
-- [Tabela de conteúdos](#tabela-de-conteúdos)
-- [Sobre](#sobre)
-- [Instalação](#instalação)
-- [Como usar](#como-usar)
-  - [Pre Requisitos](#pre-requisitos)
-- [Tecnologias](#tecnologias)
+  - [Project Description](#project-description)
+- [Table of Contents](#table-of-contents)
+- [About](#about)
+- [Installation](#installation)
+- [How to Use](#how-to-use)
+  - [Prerequisites](#prerequisites)
+- [Technologies](#technologies)
 <!--te-->
 
 <br>
 
-<a id='sobre'></a>
+<a id='about'></a>
 
-# Sobre
+# About
 
-O script Python automatiza o envio de newsletters por e-mail para uma lista de assinantes. Ele usa a API do Gmail para criar e enviar e-mails personalizados a partir de um remetente definido, para destinatários em um arquivo CSV. Com uma interface gráfica, os usuários inserem assunto e conteúdo, que são enviados a todos os assinantes. O script lida com erros e simplifica a comunicação com os assinantes, tornando o compartilhamento de informações eficiente e personalizado.
+The Python script automates the sending of newsletters via email to a list of subscribers. It uses the Gmail API to create and send customized emails from a defined sender to recipients in a CSV file. With a graphical interface, users enter the subject and content, which are sent to all subscribers. The script handles errors and simplifies communication with subscribers, making information sharing efficient and personalized.
 
 
-# Instalação
+# Installation
 
-1. instale o <a href='https://www.python.org/downloads'>python</a> 
+1. Install <a href='https://www.python.org/downloads'>Python</a> on your computer.
 
-2. verifique a instalção no ***Prompt de Comando**** digitando:
-    ```
+2. Verify the installation in the **Command Prompt** by typing:
+
+    ```shell
     python3
     ```
 
-3. Clone o repositório
+3. Clone the repository using the following command:
+
     ```console
-    # clone the repo
+    # Clone the repo
     $ git clone https://github.com/ravimughal/newsletter.git
     ```
 
-4. Acessar o Console de Desenvolvedor do Google:
-Acesse https://console.developers.google.com/ e faça login na sua conta do Google.
+4. Access the Google Developer Console: Go to https://console.developers.google.com/ and log in to your Google account.
 
-5. Criar um Novo Projeto:
-No Console de Desenvolvedor, clique no botão "Selecione um projeto" no canto superior esquerdo e, em seguida, clique em "Novo Projeto". Dê um nome ao projeto e selecione as opções apropriadas. Clique em "Criar".
+5. Create a New Project: In the Developer Console, click the "Select a project" button in the top left corner, then click "New Project." Give the project a name and select the appropriate options. Click "Create."
 
-6. Ativar a API do Gmail:
-No painel do projeto, clique em "Ativar APIs e serviços". Procure por "Gmail" e clique em "Gmail API". Em seguida, clique no botão "Ativar".
+6. Activate the Gmail API: In the project dashboard, click "Enable APIs and Services." Search for "Gmail" and click "Gmail API." Then, click the "Enable" button.
 
-7. Criar Credenciais:
-No menu lateral, clique em "Credenciais". Depois, clique em "Criar credenciais" e escolha "ID do Cliente OAuth". Selecione "Aplicativo da Área de Trabalho" como o tipo de aplicativo.
+7. Create Credentials: In the left-hand menu, click "Credentials." Next, click "Create credentials" and choose "OAuth Client ID." Select "Desktop App" as the application type.
 
-8. Configurar as Credenciais:
-Preencha os detalhes do aplicativo, como nome e ícone. Nas URLs de redirecionamento autorizadas, você pode adicionar "http://localhost" para fins de teste. Clique em "Criar" para criar as credenciais.
+8. Configure the Credentials: Fill in the application details such as the name and icon. You can add "http://localhost" to the authorized redirect URLs for testing purposes. Click "Create" to create the credentials.
 
-9. Fazer o Download das Credenciais:
-Na lista de credenciais, você verá a nova credencial que foi criada. Clique no ícone de download ao lado dela para baixar o arquivo JSON contendo as informações de autenticação.
+9. Download the Credentials: In the list of credentials, you'll see the new credential you created. Click the download icon next to it to download the JSON file containing authentication information.
 
-10. Utilizar as Credenciais:
-No seu código, você pode utilizar o arquivo JSON de credenciais para autenticar sua aplicação e acessar a API do Gmail. Pegue o arquivo 'path_to_credentials.json' e passe para a pasta da NEWSLETTER
+10. Use the Credentials: In your code, use the JSON credentials file to authenticate your application and access the Gmail API. Place the 'path_to_credentials.json' file in the NEWSLETTER folder.
 
-1.  No Código substitua em ***main.py*** o _testedasilvafilho@gmail.com_ pelo seu email
-    ```
-    sender_email = 'testedasilvafilho@gmail.com' 
+11. In your code, replace 'testedasilvafilho@gmail.com' with your email address in the 'main.py' file:
+
+    ```python
+    sender_email = 'testedasilvafilho@gmail.com'
     ```
 
-    Substitua em ***email_utils.py*** pelo seu email também
-    ```
+    Also, replace 'testedasilvafilho@gmail.com' with your email in the 'email_utils.py' file:
+
+    ```python
     if sender == 'testedasilvafilho@gmail.com':
     ```
-    
 
-# Como usar
+# How to Use
 
-1. Procure o diretorio newsletter no seu Prompt de Comando e execute o ***main.py*** (<a href='https://medium.com/@adsonrocha/como-abrir-e-navegar-entre-pastas-com-o-prompt-de-comandos-do-windows-10-68750eae8f47'>como navegar pelo Prompt de Comando</a>)
+1. Navigate to the 'newsletter' directory in your Command Prompt and run 'main.py' using the following command:
+
+    ```shell
+    cd newsletter
+    python main.py
     ```
-    C:\Users\Ravim\Desktop>cd newsletter
-    C:\Users\Ravim\Desktop\newsletter>python main.py
-    ```
 
-2. Escreva o *Assunto* e a *Mensagem* do email que serão enviados para os emails em ***lista_assinantes.csv***
+2. Enter the email subject and message content that will be sent to the emails listed in 'lista_assinantes.csv.'
 
     <img src='https://raw.githubusercontent.com/ravimughal/newsletter/main/img/envio%20do%20email.png'/>
 
-3. Acesse a conta do email cadastrada na instalação.
+3. Access the email account you registered during the installation.
 
-## Pre Requisitos
+## Prerequisites
 
-1. Conta no <a href='https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AXo7B7VvjglutmmcYtQBTfc763EW8kgXTO2PBr_P3i5KaouLpyK_mngVXMjjPkB6hlSDJWb8eXUnaA&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1962252387%3A1693370731362858'>GMAIL</a>
-2. Python instalado na sua maquina. <a href='https://www.python.org/downloads/'>(Clique aqui) </a>
+1. A [Gmail](https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AXo7B7VvjglutmmcYtQBTfc763EW8kgXTO2PBr_P3i5KaouLpyK_mngVXMjjPkB6hlSDJWb8eXUnaA&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1962252387%3A1693370731362858) account.
 
-# Tecnologias
+2. Python installed on your machine. You can download it [here](https://www.python.org/downloads).
+
+# Technologies
 
 <div style='display: flex;'>
     <img src='https://simpleicons.org/icons/gmail.svg' width='100px'/>
@@ -122,4 +118,4 @@ No seu código, você pode utilizar o arquivo JSON de credenciais para autentica
 <br>
 <br>
 
-<h4 align='center'> EM DESENVOLVIMENTO 🚧 </h4>
+<h4 align='center'> UNDER DEVELOPMENT 🚧 </h
