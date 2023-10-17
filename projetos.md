@@ -8,8 +8,6 @@ permalink: /projects/
     <link rel="stylesheet" href="{{'./assets/css/blog.css' | relative_url}}">
 </head>
 
-## Projetos
-
 <div class="blog-posts">
   {% for projeto in site.projetos %}
     <div class="blog-post">
