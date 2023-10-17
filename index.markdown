@@ -47,10 +47,10 @@ layout: indexLayout
             <a href="#about">
                 About
             </a>
-            <a href="#projects">
+            <a href="./projects">
                 Projects
             </a>
-            <a href="./blog.html">
+            <a href="./blog">
                 Blog
             </a>
         </div>
