@@ -14,7 +14,7 @@ permalink: /projects/
   {% for projeto in site.projetos %}
     <div class="blog-post">
       <h2 class="post-title"><a href="{{ projeto.url }}">{{ projeto.title }}</a></h2>
-      <p class="post-excerpt">{{ projeto.description | markdownify }}</p>
+      <p class="post-excerpt">{{ projeto.excerpt | markdownify }}</p>
     </div>
   {% endfor %}
 </div>
