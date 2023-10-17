@@ -1,6 +1,5 @@
 ---
 title: NWS letter
-image: /img/nws.png
 excerpt: "The Python Automated Email Newsletter Sending Script offers an effective and automated way to send newsletters to a list of subscribers."
 ---
 
