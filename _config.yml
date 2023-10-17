@@ -39,6 +39,9 @@ collections:
 
 permalink: pretty
 
+default_image: https://media.discordapp.net/attachments/638027068420128806/1163913988631953428/Ravi_Mughal.png
+
+
 defaults:
   -
     scope:
