@@ -51,7 +51,7 @@ defaults:
     values:
       layout: "newPost"
       title: "Generic Title"
-      author: "Ravi Gonçalves"
+      author: "Ravi Mughal"
       stylesheets:
         - assets/css/blog.css
   -
@@ -60,6 +60,8 @@ defaults:
       type: "projetos"
     values:
       layout: "newPost"
+
+
 
 
 
