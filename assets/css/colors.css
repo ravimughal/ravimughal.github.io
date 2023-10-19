@@ -3,6 +3,10 @@ body {
     color: #C9D1D9
 }
 
+ol > li {
+    margin: 12px 0px ;
+}
+
 .site-header {
     border-top: 5px solid #0D1117 !important;
     background-color: #010409;
@@ -19,6 +23,7 @@ body {
 
 .highlight, pre {
     background-color: transparent !important;
+    margin-top: 10px;
 }
 
 pre {
