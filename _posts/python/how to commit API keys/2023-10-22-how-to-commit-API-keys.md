@@ -6,7 +6,7 @@ excerpt: "The most people doesnt know why why is extremely important hide your A
 
 ## System Variables
 
-The most people doesnt know why why is extremely important hide your API keys of a project. API Keys or another sensitive information needs to stay safe.
+The most people doesnt know why is extremely important hide your API keys of a project. API Keys or another sensitive information needs to stay safe.
 
 To make projects information private, you would need know how to acess **system variables**. And one of the mosts popular ways to create and use system variables is with .env files.
 
