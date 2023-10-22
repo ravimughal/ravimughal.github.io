@@ -1,14 +1,16 @@
 ---
 title:  "How to Commit API Keys"
 categories: "Python Git" 
-excerpt: "The most people doesnt know why why is extremely important hide your API keys of a project. API Keys or another sensitive information needs to stay safe."
+excerpt: "Most people don't know why it's extremely important to hide your project's API keys. API keys and other sensitive information need to stay safe."
 ---
 
 ## System Variables
 
-The most people doesnt know why is extremely important hide your API keys of a project. API Keys or another sensitive information needs to stay safe.
+Most people don't know why it's extremely important to hide your project's API keys. API keys and other sensitive information need to stay safe.
 
-To make projects information private, you would need know how to acess **system variables**. And one of the mosts popular ways to create and use system variables is with .env files.
+To keep project information private, you need to know how to access **system variables**. One of the most popular ways to create and use system variables is with .env files.
+
+## Prerequisites
 
 ## Prerequisites 
 
