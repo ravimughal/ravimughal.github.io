@@ -1,7 +1,7 @@
 ---
 title:  "How to Commit API Keys"
 categories: "Python Git" 
-excerpt: "You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated."
+excerpt: "The most people doesnt know why why is extremely important hide your API keys of a project. API Keys or another sensitive information needs to stay safe."
 ---
 
 ## System Variables
@@ -15,7 +15,7 @@ To make projects information private, you would need know how to acess **system 
 - **Python** 
 - **Pip**
 
-## Steo-by-Step
+## Step-by-Step
 
 1. **Install python-doten**
     - In your terminal, type:
@@ -29,7 +29,7 @@ pip install python-dotenv
         ![.env file](https://i.imgur.com/HTbWcvE.png)
 
 3. **Copy and Paste**
-   - In your file project, copy the variable API Key and paste in ``.env`` file
+   - In your project file, copy the variable API Key and paste in ``.env`` file
 
         ![API KEY](https://i.imgur.com/iSDyVii.png) 
 
