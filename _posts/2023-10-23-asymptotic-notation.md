@@ -1,6 +1,6 @@
 ---
 title: Asymptotic Notation - Harvard CS50
-excerpt: "Asymptotic notation, specifically Big O notation, is a way to analyze the runtime growth of programs as the size of inputs increases. It allows us to compare the efficiency of algorithms. For example, an algorithm with a runtime of O(n) grows linearly with the input size, while an algorithm with a runtime of O(1) has constant time regardless of input size. Other notations, such as O(n^2) and O(log n), represent slower and faster runtimes, respectively. Best-case and worst-case scenarios can also be considered using symbols like Ω (omega) and Θ (theta)."
+excerpt: "Asymptotic notation, specifically Big O notation, analyzes the runtime growth of programs as input size increases. It allows us to compare algorithm efficiency. For example, O(n) has linear growth, while O(1) has constant time. Other notations, like O(n^2) and O(log n), represent slower and faster runtimes. Symbols like Ω (omega) and Θ (theta) can be used to consider best-case and worst-case scenarios."
 ---
 
 
