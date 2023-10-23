@@ -39,8 +39,8 @@ collections:
 
 permalink: pretty
 
-default_image: "/assets/images/ravimughal.png"
-favicon: "/assets/images/favicon.png" 
+default_image: "https://i.imgur.com/vG78qEg.png"
+favicon: "https://i.imgur.com/UkwuNQE.png" 
 
 
 defaults:
