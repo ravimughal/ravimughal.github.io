@@ -15,6 +15,15 @@ layout: indexLayout
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@100;400&display=swap" rel="stylesheet"> 
     <title>Ravi Mughal</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DFQYSH06WG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-DFQYSH06WG');
+    </script>
 </head>
 
 <body>

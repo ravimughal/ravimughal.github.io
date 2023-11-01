@@ -2,13 +2,15 @@
 layout: default
 ---
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="../assets/css/colors.css">
     {% include analytics.html %}
 </head>
-
-<h1>
-    {{ page.title }}
-
-</h1>
-{{ content }}
+<body>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+</body>
+</html>
