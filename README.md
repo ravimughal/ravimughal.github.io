@@ -1,4 +1,5 @@
 # ravimughal-github-jekyll
 ## made using jekyll    
 
-Website using jekyll. Type: ravimughal.github.io/blog and search how to build a Jekyll website
+blog: ravimughal.github.io/blog
+projects: ravimughal.github.io/projects
