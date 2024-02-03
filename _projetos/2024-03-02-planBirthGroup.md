@@ -1,7 +1,6 @@
 ---
 title:  planBirthGroup
 author: "Ravi Mughal"
-permalink: "/:categories/:title"
 excerpt: "This project was developed as part of an academic work for the college and aims to create a birth management system at priority levels, considering the availability of doctors and different levels of capabilities. In addition, the system also covers the management of working hours, hospital opening hours, hours worked by doctors and their respective weekly days off."
 ---
 
