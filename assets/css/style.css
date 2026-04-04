@@ -328,3 +328,57 @@ a {
 .addFriend:hover {
     background-color: #83a75f;
 }
+
+.about_text {
+    max-width: 700px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    line-height: 28px;
+}
+
+.about > h1,
+.knowledge > h1,
+.strengthts > h1 {
+    color: #15202b;
+}
+
+.aglomeration > h3 {
+    font-size: 26px;
+}
+
+.paragraph {
+    justify-content: center;
+}
+
+.small_box p {
+    line-height: 24px;
+}
+
+@media (max-width: 900px) {
+    .agl_right,
+    .agl_left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .aglomeration {
+        width: 90%;
+        margin: 30px auto 0 auto;
+    }
+
+    .box {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .small_box {
+        width: 90%;
+        max-width: 360px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .margin_box {
+        margin: -35px 25px 0 25px;
+    }
+}
