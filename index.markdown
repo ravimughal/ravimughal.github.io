@@ -2,28 +2,7 @@
 title: "Portfolio"
 layout: indexLayout
 ---
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ravi Mughal — estudante de Tecnologia da Informação na FCUL. Desenvolvimento de software, backend, APIs e sistemas.">
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/landing.css' | relative_url }}">
-  <title>Ravi Mughal — TI &amp; Desenvolvimento de Software</title>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DFQYSH06WG"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-DFQYSH06WG');
-  </script>
-</head>
-<body class="landing">
+
   <a class="landing-skip" href="#conteudo">Saltar para o conteúdo</a>
 
   <header class="landing-header">
@@ -67,7 +46,6 @@ layout: indexLayout
         </div>
       </div>
     </section>
-
     <section class="landing-section landing-section--alt" id="sobre" aria-labelledby="sobre-title">
       <div class="landing-section__inner">
         <p class="landing-section__label">Perfil</p>
@@ -84,7 +62,6 @@ layout: indexLayout
         </div>
       </div>
     </section>
-
     <section class="landing-section" id="stack" aria-labelledby="stack-title">
       <div class="landing-section__inner">
         <p class="landing-section__label">Competências</p>
@@ -142,7 +119,6 @@ layout: indexLayout
         </div>
       </div>
     </section>
-
     <section class="landing-section landing-section--alt" id="foco" aria-labelledby="foco-title">
       <div class="landing-section__inner">
         <p class="landing-section__label">Áreas</p>
@@ -176,13 +152,11 @@ layout: indexLayout
         </div>
       </div>
     </section>
-
     <section class="landing-section" id="projetos" aria-labelledby="projetos-title">
       <div class="landing-section__inner">
         <p class="landing-section__label">Trabalho</p>
         <h2 id="projetos-title">Projetos em destaque</h2>
         <p class="landing-section__intro">Sistemas e plataformas que desenvolvi ou co-desenvolvi — com stack e objetivos concretos.</p>
-
         <div class="landing-carousel" data-landing-carousel>
           <div class="landing-carousel__head">
             <div class="landing-carousel__controls">
@@ -205,7 +179,7 @@ layout: indexLayout
                     <span>SQL</span>
                     <span>Serviços</span>
                   </div>
-                  <a class="landing-btn landing-btn--ghost" href="https://github.com/ravimughal" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                  <a class="landing-btn landing-btn--ghost" href="https://github.com/ravimughal/urbanwheels" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
                 </div>
               </article>
               <article class="landing-carousel__slide">
@@ -227,7 +201,7 @@ layout: indexLayout
               <article class="landing-carousel__slide">
                 <div class="landing-project-card">
                   <p class="landing-project-card__meta">Backend · JPA · API</p>
-                  <h3>WebTaxi Backend</h3>
+                  <h3>Lispuber</h3>
                   <p class="landing-project-card__desc">
                     Camada de <strong>API backend</strong> com <strong>modelagem de entidades</strong>, <strong>persistência JPA</strong> e <strong>endpoints REST</strong> alinhados ao domínio, priorizando contratos estáveis, integridade de dados e separação de responsabilidades.
                   </p>
@@ -237,7 +211,7 @@ layout: indexLayout
                     <span>REST</span>
                     <span>Persistência</span>
                   </div>
-                  <a class="landing-btn landing-btn--ghost" href="https://github.com/ravimughal" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+                  <a class="landing-btn landing-btn--ghost" href="https://lispuber.xyz/" target="_blank" rel="noopener noreferrer">Ver Site</a>
                 </div>
               </article>
               <article class="landing-carousel__slide">
@@ -253,7 +227,7 @@ layout: indexLayout
                     <span>Dados financeiros</span>
                     <span>Git</span>
                   </div>
-                  <a class="landing-btn landing-btn--ghost" href="https://github.com/ravimughal/ad-3" target="_blank" rel="noopener noreferrer">Repositório</a>
+                  <a class="landing-btn landing-btn--ghost" href="https://github.com/ravimughal/CoinCenter" target="_blank" rel="noopener noreferrer">Repositório</a>
                 </div>
               </article>
               <article class="landing-carousel__slide">
@@ -376,7 +350,6 @@ layout: indexLayout
         </div>
       </div>
     </section>
-
     <section class="landing-section landing-section--alt" id="qualidades" aria-labelledby="qualidades-title">
       <div class="landing-section__inner">
         <p class="landing-section__label">Como trabalho</p>
@@ -402,7 +375,6 @@ layout: indexLayout
         </div>
       </div>
     </section>
-
     <footer class="landing-footer" id="contacto">
       <div class="landing-footer__inner">
         <h2>Contacto</h2>
@@ -429,30 +401,24 @@ layout: indexLayout
       var next = root.querySelector("[data-carousel-next]");
       var dotsWrap = root.querySelector(".landing-carousel__dots");
       if (!view || !track || !slides.length || !prev || !next || !dotsWrap) return;
-
       var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
       function gapSize() {
         var g = getComputedStyle(track).gap || getComputedStyle(track).columnGap;
         return parseFloat(g, 10) || 20;
       }
-
       function slideStep() {
         var el = slides[0];
         return el ? el.getBoundingClientRect().width + gapSize() : 400;
       }
-
       function maxScroll() {
         return Math.max(0, view.scrollWidth - view.clientWidth);
       }
-
       function updateButtons() {
         var max = maxScroll();
         var sl = view.scrollLeft;
         prev.disabled = sl <= 1;
         next.disabled = sl >= max - 1;
       }
-
       function setActiveDot(index) {
         var dots = dotsWrap.querySelectorAll(".landing-carousel__dot");
         dots.forEach(function (d, j) {
@@ -461,7 +427,6 @@ layout: indexLayout
           d.setAttribute("aria-current", on ? "true" : "false");
         });
       }
-
       function nearestIndex() {
         var center = view.scrollLeft + view.clientWidth / 2;
         var best = 0;
@@ -477,21 +442,18 @@ layout: indexLayout
         }
         return best;
       }
-
       function scrollByStep(dir) {
         view.scrollBy({
           left: dir * slideStep(),
           behavior: reducedMotion ? "auto" : "smooth"
         });
       }
-
       prev.addEventListener("click", function () {
         scrollByStep(-1);
       });
       next.addEventListener("click", function () {
         scrollByStep(1);
       });
-
       slides.forEach(function (slide, i) {
         var dot = document.createElement("button");
         dot.type = "button";
@@ -507,7 +469,6 @@ layout: indexLayout
         });
         dotsWrap.appendChild(dot);
       });
-
       view.addEventListener("keydown", function (e) {
         if (e.key === "ArrowLeft") {
           e.preventDefault();
@@ -517,7 +478,6 @@ layout: indexLayout
           scrollByStep(1);
         }
       });
-
       var scrollTimer;
       view.addEventListener("scroll", function () {
         window.clearTimeout(scrollTimer);
@@ -526,14 +486,10 @@ layout: indexLayout
           setActiveDot(nearestIndex());
         }, 60);
       });
-
       window.addEventListener("resize", function () {
         updateButtons();
         setActiveDot(nearestIndex());
       });
-
       updateButtons();
     })();
   </script>
-</body>
-</html>

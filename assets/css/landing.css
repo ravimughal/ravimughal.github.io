@@ -42,8 +42,8 @@ body.landing {
   -webkit-font-smoothing: antialiased;
 }
 
-body.landing a {
-  color: inherit;
+body.landing .landing-logo,
+body.landing .landing-nav a {
   text-decoration: none;
 }
 

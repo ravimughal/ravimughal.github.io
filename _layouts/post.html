@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{% assign doc_label = 'Publicação' %}
+{% if page.path contains '_projetos' %}
+  {% assign doc_label = 'Projeto' %}
+{% elsif page.path contains '_posts' %}
+  {% assign doc_label = 'Artigo' %}
+{% elsif page.collection and page.collection.label == 'projetos' %}
+  {% assign doc_label = 'Projeto' %}
+{% elsif page.collection and page.collection.label == 'posts' %}
+  {% assign doc_label = 'Artigo' %}
+{% endif %}
+<article class="inner-page inner-page--post">
+  <header class="inner-page__hero" aria-labelledby="post-title">
+    <div class="landing-section__inner">
+      <p class="landing-section__label">{{ doc_label }}</p>
+      <h1 class="inner-page__title" id="post-title">{{ page.title }}</h1>
+      <div class="inner-page__meta">
+        {% if page.date %}
+        <time class="inner-page__time" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%d/%m/%Y' }}</time>
+        {% endif %}
+        {% if page.author %}
+        <span class="inner-page__author">{{ page.author }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+  <div class="landing-section__inner inner-page__content prose">
+    {{ content }}
+  </div>
+</article>

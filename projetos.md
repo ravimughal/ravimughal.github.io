@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Projects
+title: Projetos
 permalink: /projects/
 ---
 
-<head>
-    <link rel="stylesheet" href="{{'./assets/css/blog.css' | relative_url}}">
-</head>
+<p class="inner-page__intro">
+  Sistemas e aplicações que implementei — backends, APIs e ferramentas web.
+</p>
 
 <div class="blog-posts">
   {% for projeto in site.projetos %}
