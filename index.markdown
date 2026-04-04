@@ -40,7 +40,7 @@ layout: indexLayout
         <div class="landing-hero__visual">
           <div class="landing-profile" aria-hidden="false">
             <div class="landing-profile__inner">
-              <img src="{{ '/assets/images/ravimughal.png' | relative_url }}" width="400" height="400" alt="Retrato de Ravi Mughal">
+              <img src="{{ '/assets/images/cartoon_ravi.png' | relative_url }}" width="400" height="400" alt="Retrato de Ravi Mughal">
             </div>
           </div>
         </div>
