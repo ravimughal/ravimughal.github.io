@@ -4,15 +4,29 @@ author: "Ravi Gonçalves"
 title: "Blog"
 permalink: "/blog/"
 ---
-<link rel="stylesheet" href="{{'./assets/css/blog.css' | relative_url}}">
-My blog is the space where I share my learning journey in the area of Information Technology. Find tips, insights and valuable information about IT as we walk this path of technological discovery together
 
-<div class="blog-posts">
-  {% for post in site.posts %}
-    <div class="blog-post">
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
-      <p class="post-excerpt">{{ post.excerpt }}</p>
+<section class="landing-section">
+  <div class="landing-section__inner">
+    <p class="landing-section__label">Artigos</p>
+    <h1>Blog</h1>
+    <p class="landing-section__intro">
+      Meu blog é o espaço onde compartilho minha jornada de aprendizagem na área de Tecnologia da Informação.
+      Aqui você encontrará dicas, insights e informações valiosas sobre TI, enquanto percorremos juntos esse
+      caminho de descoberta tecnológica.
+    </p>
+    <div class="blog-posts">
+      {% for post in site.posts %}
+        <article class="blog-post">
+          <p class="post-date">{{ post.date | date: "%d/%m/%Y" }}</p>
+          <h2 class="post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          <p class="post-excerpt">
+            {{ post.excerpt | strip_html | truncate: 220 }}
+          </p>
+          <a class="read-more" href="{{ post.url | relative_url }}">Ler artigo</a>
+        </article>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </div>
+</section>

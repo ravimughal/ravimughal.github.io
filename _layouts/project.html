@@ -1,18 +1,21 @@
 ---
-layout: page
+layout: default
 ---
 
+<section class="landing-section">
+  <div class="landing-section__inner">
+    {{ content }}
 
-{{content}}
-
-<div class="projects">
-    {% for project in site.pages %}
-    {% if project.layout == 'default' %}
-    <div class="project">
-        <h2>{{ project.title }}</h2>
-        <p>{{ project.description }}</p>
-        <a href="{{ project.url }}">Ver mais</a>
+    <div class="landing-stack-grid">
+      {% for project in site.pages %}
+        {% if project.layout == 'default' %}
+        <div class="landing-project-card">
+          <h3>{{ project.title }}</h3>
+          <p class="landing-project-card__desc">{{ project.description }}</p>
+          <a class="landing-btn landing-btn--ghost" href="{{ project.url }}">Ver mais</a>
+        </div>
+        {% endif %}
+      {% endfor %}
     </div>
-    {% endif %}
-    {% endfor %}
-</div>
+  </div>
+</section>
