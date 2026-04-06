@@ -18,9 +18,9 @@ permalink: "/blog/"
       {% for post in site.posts %}
         <article class="blog-post">
           <p class="post-date">{{ post.date | date: "%d/%m/%Y" }}</p>
-          <h2 class="post-title">
-            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          </h2>
+          <h3 class="post-title">
+            <a class ="post-link-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
           <p class="post-excerpt">
             {{ post.excerpt | strip_html | truncate: 220 }}
           </p>

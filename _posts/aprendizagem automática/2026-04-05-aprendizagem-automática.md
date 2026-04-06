@@ -91,3 +91,52 @@ Distinguem-se pela lógica interna que processam informação.
     - O underfitting acontece quando o modelo é simples demais para captar padrões reais.
 - **Teorema “No-Free-Lunch“:**
     - Não existe um algoritmo único que seja superior para todos os tipos de problema.
+
+## 3. Universal Function **Approximators (UFA).**
+
+Ferramentas de modelagem capaz de **aproximar qualquer delineamento de função.**
+
+### 3.1. Objetivo Teórico.
+
+Se as funções de distribuição reais forem conhecidas, deveria ser possível encontrar a separação perfeita entre classes → **Optimal Bayes descision boundary.**
+
+Para alcançar essa separação ideal, é necessária uma ferramenta de modelagem que seja um aproximador universal.
+
+#### 3.1.1. Entendendo a UFA.
+
+**O Modelo Rígido.**
+
+Imagine que seja uma régua que não dobra.
+
+- Tenta ligar os pontos, mas como a régua é rígida só consigo desenhar uma linha reta.
+- Se os pontos formam curva (como o desenho de uma montanha), a reta vai errar quase todos os pontos.
+- **Problema:** quando tentar “extrapolar” (continuar a linha para fora do papel), o erro será gigante, porque começamos com a ferramenta errada
+    - **Exemplo**: Previsão de Vendas de Sorvete.
+    Conforme esquenta, as vendas sobem. Mas, se ficar quente demais (50°C) as pessoas param de sair de casa e as vendas caem. A curva é um **arco.
+    Dados:** nós só temos dados de dias entre 20°C e 30°C (onde as vendas só estão subindo).
+    Como o Modelo Rígido só faz a linha reta, não cobrimos o caso dos 50°C.
+
+**O Aproximador Universal**
+
+Ao invés de uma régua (como no modelo rígido) temos um barbante.
+
+### 3.2. Aplicação em Regressão.
+
+Fazer uma aproximação o mais próxima possível da função real que gerou os dados. Aproximadores Universais não necessários para que a forma da curva gerada possa **extrapolar para outras regiões e domínios** (como no exemplo de Previsão de Vendas de Sorvete.) 
+
+### 3.3 Aprendizagem a partir de Dados.
+
+São capazes de aprender, a partir dos dados, os parâmetros que caracterizam cada função.
+
+### 3.4. Diversidade de Modelos.
+
+Muitas ferramentas de aprendizagem supervisionada são aproximadores universais, mas nem todas possuem essa capacidade. O que diferencia as diversas famílias de modelagem é a forma das suas curvas básicas e os procedimentos de ajuste (fitting) utilizados.
+
+# 4. Conclusão
+
+1. Processamento e Compreensão dos Dados: A qualidade e quantidade dos dados são fundamentais. Dados mal coletados podem gerar **viés de amostragem** ou ruído, prejudicando o modelo
+2. Avaliação Adequada: Distinguir entre a **validação** (ajuste de modelo durante o treino) e a **avaliação final** (teste de eficácia em dados não vistos). O uso de conjunto de testes independentes é essencial para obter um relatório imparcial.
+3. Expectativas Realistas: O conceito de “melhor modelo” é muitas vezes elusivo, pois depende inteiramente de como os dados são representados e da natureza do problema.
+4. Preferência pela Simplicidade: Os **melhores modelos são os mais simples**. Em situações de dúvida, a recomendação é selecionar o modelo disponível mais simples, possuindo menos parâmetros ajustados ou menos combinações de hiperparâmetros.
+
+O foco do especialista não deve estar apenas no algoritmo, mas em todo o *pipeline*, desde a preparação dos dados até a validação cuidadosa dos resultados.
