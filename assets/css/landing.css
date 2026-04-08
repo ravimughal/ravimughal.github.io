@@ -834,3 +834,8 @@ body.landing img {
 .prose h3 {
   margin-left: 1rem;
 }
+
+.blog-section__label {
+  max-width: 42rem;
+  margin: 0 auto;
+}

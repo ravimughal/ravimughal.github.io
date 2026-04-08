@@ -7,13 +7,14 @@ permalink: "/blog/"
 
 <section class="landing-section">
   <div class="landing-section__inner">
-    <p class="landing-section__label">Artigos</p>
-    <h1>Blog</h1>
-    <p class="landing-section__intro">
-      Meu blog é o espaço onde compartilho minha jornada de aprendizagem na área de Tecnologia da Informação.
-      Aqui você encontrará dicas, insights e informações valiosas sobre TI, enquanto percorremos juntos esse
-      caminho de descoberta tecnológica.
-    </p>
+    <div class="blog-section__label">
+      <p class="landing-section__label">Artigos</p>
+      <p class="landing-section__intro intro_blog">
+        Meu blog é o espaço onde compartilho minha jornada de aprendizagem na área de Tecnologia da Informação.
+        Aqui você encontrará dicas, insights e informações valiosas sobre TI, enquanto percorremos juntos esse
+        caminho de descoberta tecnológica.
+      </p>
+    </div>
     <div class="blog-posts">
       {% for post in site.posts %}
         <article class="blog-post">
