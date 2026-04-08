@@ -19,6 +19,15 @@
     {% endfor %}
   {% endif %}
   {% include analytics.html %}
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true
+      }
+    });
+  </script>
 </head>
 <body class="landing">
   <a class="landing-skip" href="#conteudo">Saltar para o conteúdo</a>
@@ -27,8 +36,6 @@
     {{ content }}
   </main>
   {% include site-footer.html %}
-  {% if page.layout == 'newPost' %}
   <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
-  {% endif %}
 </body>
 </html>
