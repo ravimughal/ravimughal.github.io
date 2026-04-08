@@ -826,3 +826,11 @@ body.landing img {
   margin: 0 auto;
   padding: 0 1.2rem;
 }
+
+.prose h2 {
+  margin-left: 0.5rem;
+}
+
+.prose h3 {
+  margin-left: 1rem;
+}
