@@ -85,3 +85,9 @@
   color: var(--text-primary);
   transform: translateY(-1px);
 }
+
+.inner-page__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
