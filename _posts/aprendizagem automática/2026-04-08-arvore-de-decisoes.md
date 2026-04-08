@@ -1,5 +1,5 @@
 ---
-title: Árvore de Decisões (Decision Tree)
+title: Árvore de Decisões
 excerpt: "Árvores de decisão são modelos que utilizam regras “se/então” para classificar ou prever dados, dividindo-os de forma a reduzir a incerteza. São simples, interpretáveis e baseiam-se na escolha das melhores divisões para gerar previsões eficazes."
 ---
 
@@ -114,7 +114,7 @@ A soma de todas as probabilidades deve ser igual a 1 ($\sum p_i = 1$).
 
 ![image.png](/assets/images/arvore-de-decisao/image-2.png)
 
-Onde, no topo há muita entropia enquanto nas bordas há pouca entropia.
+Onde no topo há muita entropia enquanto nas bordas há pouca entropia.
 
 ### 4.3. Aplicação em Árvores de Decisão.
 
